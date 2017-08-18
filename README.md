@@ -10,6 +10,7 @@ give it some starter text and enjoy text generaions from the system :-)
 
 ## Models
 * 1 Layer LSTM, word_embedding_size = 50, hidden_state_size = 100
+
 Some examples as produced by the system:
 ~~~~
 STARTER TEXT> ozone is
