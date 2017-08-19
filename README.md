@@ -18,5 +18,11 @@ GENERATED TEXT> ozone is for dialysis devices with jobs that are demanding preve
 
 STARTER TEXT> friends are
 GENERATED TEXT> friends are useful of the experiments are slight <eos>
-~~~~
 
+STARTER TEXT> microsoft
+GENERATED TEXT> microsoft said taiwan mci communications corp. closed at $ N a share
+~~~~
+<<<<<<< HEAD
+
+=======
+>>>>>>> b85b9b0a9bd66f35114e1739f786b42b4e7e426a
