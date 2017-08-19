@@ -9,20 +9,23 @@ python generate_text.py
 give it some starter text and enjoy text generaions from the system :-)
 
 ## Models
-* 1 Layer LSTM, word_embedding_size = 50, hidden_state_size = 100
+* 1 Layer LSTM, word_embedding_size = 50, hidden_state_size = 100 , Test perplexity on PTB: 147.298156738
 
 Some examples as produced by the system:
 ~~~~
+STARTER TEXT> microsoft shares
+GENERATED TEXT> microsoft shares produced N million francs in three two months of these small investors.
+
 STARTER TEXT> ozone is
 GENERATED TEXT> ozone is for dialysis devices with jobs that are demanding preventing sterling.
 
-STARTER TEXT> friends are
-GENERATED TEXT> friends are useful of the experiments are slight <eos>
-
 STARTER TEXT> microsoft
-GENERATED TEXT> microsoft said taiwan mci communications corp. closed at $ N a share
+GENERATED TEXT> microsoft said taiwan mci communications corp. closed at $ N a share .
+
+STARTER TEXT> share
+GENERATED TEXT> share of aetna may have backed up in the stock market <unk>.
 ~~~~
 <<<<<<< HEAD
 
 =======
->>>>>>> b85b9b0a9bd66f35114e1739f786b42b4e7e426a
+
