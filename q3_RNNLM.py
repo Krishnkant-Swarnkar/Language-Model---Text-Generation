@@ -26,12 +26,12 @@ print '****** LOADED DATA'
 
 # Hyper Parameters
 
-lr=0.01
+lr=0.006
 batch_size = 64
 embed_size = 50
 hidden_size = 100
 num_steps = 10
-max_epochs = 20
+max_epochs = 100
 early_stopping = 2
 dropout = 0.9
 # global_step = tf.Variable(0, trainable=False)
