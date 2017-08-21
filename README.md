@@ -17,7 +17,7 @@ STARTER TEXT> microsoft shares
 GENERATED TEXT> microsoft shares produced N million francs in three two months of these small investors.
 
 STARTER TEXT> ozone is
-GENERATED TEXT> ozone is for dialysis devices with jobs that are demanding preventing sterling.
+GENERATED TEXT> ozone is still changed from the space.
 
 STARTER TEXT> microsoft
 GENERATED TEXT> microsoft said taiwan mci communications corp. closed at $ N a share .

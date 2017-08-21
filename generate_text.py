@@ -83,7 +83,7 @@ output = tf.convert_to_tensor(output)
 seq_weight = tf.ones((batch_size,num_steps))
 loss_op = sequence_loss(output,labels_placeholder,seq_weight)
 
-train_op = tf.train.AdamOptimizer(lr).minimize(loss_op)
+# train_op = tf.train.AdamOptimizer(lr).minimize(loss_op)
 
 print '****** MODEL DEFINED'
 '''**********************************************************************************************************'''
@@ -100,11 +100,10 @@ def run_epoch(session, data, train_op=None, verbose=10):
     # We need to pass in the initial state and retrieve the final state to give
     # the RNN proper history
     feed = {input_placeholder: x,labels_placeholder: y,initial_state: state, dropout_placeholder: dp}
-    loss, state, _ = session.run([loss_op, final_state, train_op], feed_dict=feed)
+    loss, state = session.run([loss_op, final_state], feed_dict=feed)
     total_loss.append(loss)
     if verbose and step % verbose == 0:
-        sys.stdout.write('\r{} / {} : pp = {}'.format(
-            step, total_steps, np.exp(np.mean(total_loss))))
+        sys.stdout.write('\r{} / {} : pp = {}'.format(step, total_steps, np.exp(np.mean(total_loss))))
         sys.stdout.flush()
   if verbose:
     sys.stdout.write('\r')
