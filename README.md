@@ -25,7 +25,3 @@ GENERATED TEXT> microsoft said taiwan mci communications corp. closed at $ N a s
 STARTER TEXT> share
 GENERATED TEXT> share of aetna may have backed up in the stock market <unk>.
 ~~~~
-<<<<<<< HEAD
-
-=======
-
